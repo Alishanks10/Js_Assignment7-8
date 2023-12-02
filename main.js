@@ -6,7 +6,10 @@ let totalCols = 0;
 const btnGenerateTable = document.querySelector("#b1");
 
 const btnAddCol = document.querySelector("#b2");
+btnAddCol.style.marginBottom = "10px";
+btnAddCol.style.marginLeft = "10px";
 const btnAddRow = document.querySelector("#b3");
+btnAddRow.style.marginBottom = "10px";
 
 const inputRows = document.querySelector("#t1");
 const inputCols = document.querySelector("#t2");
